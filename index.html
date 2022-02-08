@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Fat String Exercise</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <input type="text" name="unformatted" id="unformatted">
+    <select name="formatOptions" id="formatOptions">
+        <option value="firstLetterUp">If input is a first name: Make the first character in a name uppercase, and the rest lowercase</option>
+        <option value="findFirstName">If input is a full name: Find the first name</option>
+        <option value="lengthFirstName">If input is a full name: Find the length of the first name</option>
+        <option value="middleName">If input is a full name: Find the middle name start and end position, and the middle name itself in a full name string</option>
+        <option value="filetype">If input is a filename: Check if a filename is .png or .jpg</option>
+        <option value="passwordHide">If input is a password: Hide a password with the correct number of *s</option>
+        <option value="thirdUp">With any input: Make the third character uppercase</option>
+        <option value="afterHyphenUp">With any input: Make a character uppercase, if it follows a space or a hyphen</option>
+    </select>
+    <p id="output">Output:</p>
+    <button onclick="format()">generate Output</button>
+</body>
+</html>
